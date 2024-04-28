@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggle between dark and light mode </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #toggle {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mode {
+            height: 100px;
+            width: 360px;
+            border-radius: 8px;
+            background-color: black;
+            color: white;
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div id="toggle">
+        <button onclick="change()" id="mode">Dark Mode</button>
+    </div>
+    <script src="toggle.js"></script>
+</body>
+</html>
